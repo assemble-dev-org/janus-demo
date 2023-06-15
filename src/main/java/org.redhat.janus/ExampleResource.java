@@ -13,4 +13,10 @@ public class ExampleResource {
     public String hello() {
         return "Hello RESTEasy";
     }
+    
+     @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String goodbye() {
+        return "Goodbye RESTEasy";
+    }
 }
