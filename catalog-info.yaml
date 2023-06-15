@@ -24,6 +24,7 @@ spec:
   type: service
   lifecycle: production
   owner: "user:default/jayfray62"
+  system: janus-idp
   providesApis:
     - "my-quarkus-app"
 ---
